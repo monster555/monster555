@@ -8,6 +8,7 @@ Here are some ideas to get you started:
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
+- 💬 Ask me about **Flutter / Dart**
 -->
 
 <!--![header](https://capsule-render.vercel.app/api?text=Hi%20there!%20👋&animation=fadeIn&type=waving&color=gradient&height=100) -->
@@ -16,7 +17,6 @@ Here are some ideas to get you started:
 
 - 😄 Pronouns: **He / His**
 - 📫 How to reach me: <a href="https://www.linkedin.com/in/daniel-coyula/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white"/></a>&nbsp;<a href="https://dctech.dev" target="_blank"><img src="https://img.shields.io/badge/DC%20Tech-Portfolio-blue"/></a>
-- 💬 Ask me about **Flutter / Dart**
 - 🔭 I’m currently working on **Pet's platform** 🐶🐱
 - ⚡ Fun fact: Love playing **drums** 🥁
 
