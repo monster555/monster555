@@ -35,8 +35,8 @@ Here are some ideas to get you started:
 # Stats
 
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=monster555&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=monster555&theme=github_dark)
+<!--![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=monster555&theme=github_dark)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=monster555&theme=github_dark)
-<!--![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=monster555&theme=github_dark)-->
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=monster555&theme=github_dark)-->
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=monster555&theme=github-dark&hide_border=true&stroke=0365D6&ring=0365D6&fire=FF9800)](https://git.io/streak-stats)
