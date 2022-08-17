@@ -37,6 +37,9 @@ Here are some ideas to get you started:
 ![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=monster555&theme=github_dark)
 <!--![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=monster555&theme=github_dark)
 ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=monster555&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=monster555&theme=github_dark)-->
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=monster555&theme=github_dark)
+
+![Daniel's GitHub stats](https://github-readme-stats.vercel.app/api?username=monster555&show_icons=true&theme=dark&count_private=true)-->
+
 
 [![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=monster555&theme=github-dark&hide_border=true&stroke=0365D6&ring=0365D6&fire=FF9800)](https://git.io/streak-stats)
