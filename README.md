@@ -8,7 +8,7 @@
 
 - 🔭 I’m currently working on Pet's platform 🐶🐱
 - 😄 Pronouns: he/him/his
-- 📫 How to reach me: Through <a href="https://www.linkedin.com/in/daniel-coyula/">LinkedIn</a> or <a href="https://dctech.dev">my Web</a>
+- 📫 How to reach me: Through <a href="https://www.linkedin.com/in/daniel-coyula/">LinkedIn</a> or my <a href="https://dctech.dev">Personal Portfolio</a>
 - 👯 I’m looking to collaborate on Open source projects
 - 💬 Ask me about Flutter / Dart
 - ⚡ Fun fact: Love playing drums 🥁
