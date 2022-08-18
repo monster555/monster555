@@ -1,24 +1,17 @@
 ## Oh, hi there 👋
 
 <!--
-**monster555/monster555** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
 - 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
-- 💬 Ask me about **Flutter / Dart**
 -->
 
-<!--![header](https://capsule-render.vercel.app/api?text=Hi%20there!%20👋&animation=fadeIn&type=waving&color=gradient&height=100) -->
 
-
-
-- 😄 Pronouns: **He / His**
-- 📫 How to reach me: <a href="https://www.linkedin.com/in/daniel-coyula/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white"/></a>&nbsp;<a href="https://dctech.dev" target="_blank"><img src="https://img.shields.io/badge/DC%20Tech-Portfolio-blue"/></a>
-- 🔭 I’m currently working on **Pet's platform** 🐶🐱
-- ⚡ Fun fact: Love playing **drums** 🥁
+- 🔭 I’m currently working on Pet's platform 🐶🐱
+- 😄 Pronouns: he/him/his
+- 📫 How to reach me: Through <a href="https://www.linkedin.com/in/daniel-coyula/">LinkedIn</a> or <a href="https://dctech.dev">my Web</a>
+- 👯 I’m looking to collaborate on Open source projects
+- 💬 Ask me about Flutter / Dart
+- ⚡ Fun fact: Love playing drums 🥁
 
 ## Some stuff I've used
 
@@ -47,24 +40,7 @@ Here are some ideas to get you started:
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
 
-<!-- https://plugins.jetbrains.com/files/12129/155848/icon/pluginIcon.png -->
-
 ## Apps on Stores
 
-<a href="https://apps.apple.com/us/developer/daniel-coyula/id1396312930" target="_blank"><img src="https://img.shields.io/badge/App%20Store-black?logo=appstore&logoColor=white"/></a>&nbsp;
-<a href="https://play.google.com/store/apps/developer?id=DC+Tech" target="_blank"><img src="https://img.shields.io/badge/Play%20Store-green?logo=googleplay&logoColor=white"/></a>
-
-<!-- ## Github Stats
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=monster555&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=monster555&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=monster555&theme=github_dark)
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=monster555&theme=github_dark)
-
-![Daniel's GitHub stats](https://github-readme-stats.vercel.app/api?username=monster555&show_icons=true&theme=dark&count_private=true)
-
-
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=monster555&theme=github-dark&hide_border=true&stroke=0365D6&ring=0365D6&fire=FF9800)](https://git.io/streak-stats)
-
-<!-- ![footer](https://capsule-render.vercel.app/api?section=footer&animation=fadeIn&type=waving&color=gradient&height=100) -->
-
+<a href="https://apps.apple.com/us/developer/daniel-coyula/id1396312930" target="_blank">App Store</a>&nbsp;,
+<a href="https://play.google.com/store/apps/developer?id=DC+Tech" target="_blank">Play Store</a>
