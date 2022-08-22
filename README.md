@@ -84,6 +84,9 @@ void main() {
         url: Uri.parse('https://dctech.dev/enviofacil'),
       ),
     ],
+  )..setStatus(
+    learningNewStuff: true,
+    openToNewProjects: true,
   );
 }
 ```
