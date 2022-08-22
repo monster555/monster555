@@ -26,14 +26,16 @@ void main() {
     ),
     flutterRelatedInfo: FlutterRelatedInfo(
       experienceYears: 4,
-      iOS: AppStore(
-        hasPublishedApps: true,
-        howMany: 3,
-      ),
-      android: PlayStore(
-        hasPublishedApps: true,
-        howMany: 4,
-      ),
+      apps: [
+        IOS(
+          hasPublishedApps: true,
+          howMany: 3,
+        ),
+        Android(
+          hasPublishedApps: true,
+          howMany: 4,
+        ),
+      ],
       useBLoC: true,
       useCleanArchitecture: true,
       useFirebase: true,
@@ -54,31 +56,31 @@ void main() {
     ],
     projects: [
       Project(
-        name: 'Cashews Finance',
+        'Cashews Finance',
         role: 'Senior Flutter Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
         url: Uri.parse('https://dctech.dev/cashews-finance'),
       ),
       Project(
-        name: 'KOBA Insurance',
+        'KOBA Insurance',
         role: 'Full Stack Senior Developer',
         platforms: Platforms(webVersion: true),
         url: Uri.parse('https://dctech.dev/koba'),
       ),
       Project(
-        name: 'Self-Service kiosk for CITROËN',
+        'Self-Service kiosk for Citroën',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true),
         url: Uri.parse('https://dctech.dev/citroen'),
       ),
       Project(
-        name: 'PedidoFacil',
+        'PedidoFacil',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
         url: Uri.parse('https://dctech.dev/pedidofacil'),
       ),
       Project(
-        name: 'EnvioFacil',
+        'EnvioFacil',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
         url: Uri.parse('https://dctech.dev/enviofacil'),
