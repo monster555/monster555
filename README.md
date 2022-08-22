@@ -1,9 +1,8 @@
-## Oh, hi there 👋
+# Hi there 👋
 
 <!--
 - 🌱 I’m currently learning ...
 - 🤔 I’m looking for help with ...
--->
 
 
 - 🔭 I’m currently working on Pet's platform 🐶🐱
@@ -11,7 +10,83 @@
 - 📫 How to reach me: Through <a href="https://www.linkedin.com/in/daniel-coyula/">LinkedIn</a> or my <a href="https://dctech.dev">Personal Portfolio</a>
 - 👯 I’m looking to collaborate on Open source projects
 - 💬 Ask me about Flutter / Dart
-- ⚡ Fun fact: Love playing drums 🥁
+- ⚡ Fun fact: Love playing drums 🥁 -->
+
+## About me
+
+```dart
+void main() {
+  final danielCoyula = PersonalInfo(
+    role: 'Senior Flutter Engineer',
+    contacInfo: ContactInfo(
+      email: Uri.parse('mailto:danicoy@gmail.com'),
+      linkedIn: Uri.parse('https://www.linkedin.com/in/daniel-coyula/'),
+      website: Uri.parse('https://dctech.dev'),
+      resume: Uri.parse('https://dctech.dev/downloads/CV-Daniel%20Coyula.pdf'),
+    ),
+    flutterRelatedInfo: FlutterRelatedInfo(
+      experienceYears: 4,
+      iOS: AppStore(
+        hasPublishedApps: true,
+        howMany: 3,
+      ),
+      android: PlayStore(
+        hasPublishedApps: true,
+        howMany: 4,
+      ),
+      useBLoC: true,
+      useCleanArchitecture: true,
+      useFirebase: true,
+      useParseServer: true,
+      useFlutterWeb: true,
+    ),
+    otherSkills: [
+      'UI / UX',
+      'MongoDB',
+      'JavaScript',
+      'NodeJS',
+      'HTML / CSS',
+      'TypeScript',
+      'Ionic Framework',
+      'Express',
+      'React',
+      'NextJS'
+    ],
+    projects: [
+      Project(
+        name: 'Cashews Finance',
+        role: 'Senior Flutter Engineer',
+        platforms: Platforms(androidVersion: true, iosVersion: true),
+        url: Uri.parse('https://dctech.dev/cashews-finance'),
+      ),
+      Project(
+        name: 'KOBA Insurance',
+        role: 'Full Stack Senior Developer',
+        platforms: Platforms(webVersion: true),
+        url: Uri.parse('https://dctech.dev/koba'),
+      ),
+      Project(
+        name: 'Self-Service kiosk for CITROËN',
+        role: 'Full Stack Software Engineer',
+        platforms: Platforms(androidVersion: true),
+        url: Uri.parse('https://dctech.dev/citroen'),
+      ),
+      Project(
+        name: 'PedidoFacil',
+        role: 'Full Stack Software Engineer',
+        platforms: Platforms(androidVersion: true, iosVersion: true),
+        url: Uri.parse('https://dctech.dev/pedidofacil'),
+      ),
+      Project(
+        name: 'EnvioFacil',
+        role: 'Full Stack Software Engineer',
+        platforms: Platforms(androidVersion: true, iosVersion: true),
+        url: Uri.parse('https://dctech.dev/enviofacil'),
+      ),
+    ],
+  );
+}
+```
 
 ## Some stuff I've used
 
