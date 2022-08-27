@@ -33,7 +33,7 @@ void main() {
         ),
         Android(
           hasPublishedApps: true,
-          appCount: 4,
+          appsCount: 4,
         ),
       ],
       useBLoC: true,
