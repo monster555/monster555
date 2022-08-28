@@ -14,6 +14,15 @@
 
 ## About me
 
+```
+Initializing Dart VM...
+
+Dart VM is ready to use.
+To contact me, please drop your message to `danicoy@gmail.com`.
+For more details, please visit https://dctech.dev.
+MacBook-Pro:~ monster555$ cat ./main.dart
+```
+
 ```dart
 void main() {
   final danielCoyula = PersonalInfo(
