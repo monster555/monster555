@@ -10,9 +10,9 @@
 - 📫 How to reach me: Through <a href="https://www.linkedin.com/in/daniel-coyula/">LinkedIn</a> or my <a href="https://dctech.dev">Personal Portfolio</a>
 - 👯 I’m looking to collaborate on Open source projects
 - 💬 Ask me about Flutter / Dart
-- ⚡ Fun fact: Love playing drums 🥁 -->
+- ⚡ Fun fact: Love playing drums 🥁
 
-## About me
+## About me -->
 
 ```
 Initializing Dart VM...
@@ -101,6 +101,13 @@ void main() {
   );
 }
 ```
+```
+MacBook-Pro:~ monster555$
+```
+## Apps on Stores
+
+<a href="https://apps.apple.com/us/developer/daniel-coyula/id1396312930" target="_blank">App Store</a>&nbsp;,
+<a href="https://play.google.com/store/apps/developer?id=DC+Tech" target="_blank">Play Store</a>
 
 ## Some stuff I've used
 
@@ -128,8 +135,3 @@ void main() {
   <img src="https://github.com/devicons/devicon/blob/master/icons/jira/jira-original.svg" title="Jira" alt="Jira" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" title="Git" **alt="Git" width="40" height="40"/>
 </div>
-
-## Apps on Stores
-
-<a href="https://apps.apple.com/us/developer/daniel-coyula/id1396312930" target="_blank">App Store</a>&nbsp;,
-<a href="https://play.google.com/store/apps/developer?id=DC+Tech" target="_blank">Play Store</a>
