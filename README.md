@@ -16,9 +16,9 @@ void main() {
     role: 'Senior Flutter Engineer',
     contacInfo: ContactInfo(
       email: Uri.parse('mailto:danicoy@gmail.com'),
-      linkedIn: Uri.parse('https://www.linkedin.com/in/daniel-coyula/'),
-      website: Uri.parse('https://dctech.dev'),
-      resume: Uri.parse('https://dctech.dev/downloads/CV-Daniel%20Coyula.pdf'),
+      linkedIn: Uri.https('www.linkedin.com/in/daniel-coyula/'),
+      website: Uri.https('dctech.dev'),
+      resume: Uri.https('dctech.dev/downloads/CV-Daniel%20Coyula.pdf'),
     ),
     flutterRelatedInfo: FlutterRelatedInfo(
       experienceYears: 4,
@@ -55,31 +55,31 @@ void main() {
         'Cashews Finance',
         role: 'Senior Flutter Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.parse('https://dctech.dev/cashews-finance'),
+        url: Uri.https('dctech.dev/cashews-finance'),
       ),
       Project(
         'KOBA Insurance',
         role: 'Full Stack Senior Developer',
         platforms: Platforms(webVersion: true),
-        url: Uri.parse('https://dctech.dev/koba'),
+        url: Uri.https('dctech.dev/koba'),
       ),
       Project(
         'Self-Service kiosk for Citroën',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true),
-        url: Uri.parse('https://dctech.dev/citroen'),
+        url: Uri.https('dctech.dev/citroen'),
       ),
       Project(
         'PedidoFacil',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.parse('https://dctech.dev/pedidofacil'),
+        url: Uri.https('dctech.dev/pedidofacil'),
       ),
       Project(
         'EnvioFacil',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.parse('https://dctech.dev/enviofacil'),
+        url: Uri.https('dctech.dev/enviofacil'),
       ),
     ],
   )..setStatus(
@@ -89,9 +89,7 @@ void main() {
 }
 ```
 <pre>
-  <code>
-    MacBook-Pro:~ monster555$
-  </code>
+MacBook-Pro:~ monster555$
 </pre>
   
 ## Apps on Stores
