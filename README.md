@@ -1,24 +1,10 @@
 # Hi there 👋
 
-<!--
-- 🌱 I’m currently learning ...
-- 🤔 I’m looking for help with ...
-
-
-- 🔭 I’m currently working on Pet's platform 🐶🐱
-- 😄 Pronouns: he/him/his
-- 📫 How to reach me: Through <a href="https://www.linkedin.com/in/daniel-coyula/">LinkedIn</a> or my <a href="https://dctech.dev">Personal Portfolio</a>
-- 👯 I’m looking to collaborate on Open source projects
-- 💬 Ask me about Flutter / Dart
-- ⚡ Fun fact: Love playing drums 🥁
-
-## About me -->
-
 ```
 Initializing Dart VM...
 
 Dart VM is ready to use.
-To contact me, please drop your message to `danicoy@gmail.com`.
+To contact me, please send me a message to `danicoy@gmail.com`.
 For more details, please visit https://dctech.dev.
 MacBook-Pro:~ monster555$ cat ./main.dart
 ```
