@@ -1,16 +1,14 @@
 # Hi there 👋
 
-
 <pre>
-  <code>
-    Initializing Dart VM...</br>
-    </br>
-    Dart VM is ready to use.</br>
-    To contact me, please send me a message to `<a href="mailto:danicoy@gmail.com">danicoy@gmail.com</a>`.</br>
-    For more details, please visit <a href="https://dctech.dev">https://dctech.dev</a>.</br>
-    MacBook-Pro:~ monster555$ cat ./main.dart</br>
-  </code>
+Initializing Dart VM...
+
+Dart VM is ready to use.
+To contact me, please send me a message to `<a href="mailto:danicoy@gmail.com">danicoy@gmail.com</a>`.
+For more details, please visit <a href="https://dctech.dev">https://dctech.dev</a>.
+MacBook-Pro:~ monster555$ cat ./main.dart
 </pre>
+
 
 ```dart
 void main() {
