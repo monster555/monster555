@@ -1,5 +1,3 @@
-# Hi there 👋
-
 <pre>
 Initializing Dart VM...
 
@@ -94,8 +92,8 @@ MacBook-Pro:~ monster555$
   
 ## Apps on Stores
 
-<a href="https://apps.apple.com/us/developer/daniel-coyula/id1396312930" target="_blank">App Store</a>&nbsp;,
-<a href="https://play.google.com/store/apps/developer?id=DC+Tech" target="_blank">Play Store</a>
+<a href="https://apps.apple.com/us/developer/daniel-coyula/id1396312930" target="_blank">iOS apps on App Store</a><br>
+<a href="https://play.google.com/store/apps/developer?id=DC+Tech" target="_blank">Android apps on Play Store</a>
 
 ## Some stuff I've used
 
@@ -113,6 +111,7 @@ MacBook-Pro:~ monster555$
   <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" title="HTML5" alt="HTML" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-plain-wordmark.svg"  title="CSS3" alt="CSS" width="40" height="40"/>&nbsp;
+  <img src="https://github.com/devicons/devicon/blob/master/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" alt="TensorFlow" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" title="NextJS" alt="NextJS" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original.svg" title="React" alt="React" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/ionic/ionic-original.svg" title="Ionic" alt="Ionic" width="40" height="40"/>&nbsp;
