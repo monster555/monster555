@@ -13,14 +13,14 @@ MacBook-Pro:~ monster555$ cat ./main.dart
 ```dart
 void main() {
   final danielCoyula = PersonalInfo(
-    role: 'Senior Flutter Engineer',
+    title: 'Senior Flutter Engineer',
     contacInfo: ContactInfo(
       email: Uri.parse('mailto:danicoy@gmail.com'),
       linkedIn: Uri.https('www.linkedin.com/in/daniel-coyula/'),
       website: Uri.https('dctech.dev'),
       resume: Uri.https('dctech.dev/downloads/CV-Daniel%20Coyula.pdf'),
     ),
-    flutterRelatedInfo: FlutterRelatedInfo(
+    flutterInfo: FlutterInfo(
       experienceYears: 4,
       apps: [
         IOS(
