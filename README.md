@@ -81,7 +81,7 @@ void main() {
       ),
     ],
   )..setStatus(
-    learningNewStuff: true,
+    learningCoolStuff: true,
     openToNewProjects: true,
   );
 }
