@@ -10,13 +10,16 @@ MacBook-Pro:~ monster555$ cat ./main.dart
 
 ```dart
 void main() {
+  final portfolioUrl = 'dctech.dev';
+  final myEmail = 'danicoy@gmail.com';
+  
   final danielCoyula = PersonalInfo(
     title: 'Senior Flutter Engineer',
     contacInfo: ContactInfo(
-      email: Uri.parse('mailto:danicoy@gmail.com'),
+      email: Uri.parse('mailto:$myEmail'),
       linkedIn: Uri.https('www.linkedin.com', 'in/daniel-coyula/'),
-      website: Uri.https('dctech.dev'),
-      resume: Uri.https('dctech.dev', 'downloads/CV-Daniel%20Coyula.pdf'),
+      website: Uri.https(portfolioUrl),
+      resume: Uri.https(portfolioUrl, 'downloads/CV-Daniel%20Coyula.pdf'),
     ),
     flutterInfo: FlutterInfo(
       experienceYears: 4,
@@ -53,31 +56,31 @@ void main() {
         'Cashews Finance',
         role: 'Senior Flutter Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.https('dctech.dev', 'cashews-finance'),
+        url: Uri.https(portfolioUrl, 'cashews-finance'),
       ),
       Project(
         'KOBA Insurance',
         role: 'Full Stack Senior Developer',
         platforms: Platforms(webVersion: true),
-        url: Uri.https('dctech.dev', 'koba'),
+        url: Uri.https(portfolioUrl, 'koba'),
       ),
       Project(
         'Self-Service kiosk for Citroën',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true),
-        url: Uri.https('dctech.dev', 'citroen'),
+        url: Uri.https(portfolioUrl, 'citroen'),
       ),
       Project(
         'PedidoFacil',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.https('dctech.dev', 'pedidofacil'),
+        url: Uri.https(portfolioUrl, 'pedidofacil'),
       ),
       Project(
         'EnvioFacil',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.https('dctech.dev', 'enviofacil'),
+        url: Uri.https(portfolioUrl, 'enviofacil'),
       ),
     ],
   )..setStatus(
