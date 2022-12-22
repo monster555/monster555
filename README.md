@@ -13,7 +13,7 @@ void main() {
   final portfolioUrl = 'dctech.dev';
   final myEmail = 'danicoy@gmail.com';
   
-  final danielCoyula = PersonalInfo(
+  final me = PersonalInfo(
     title: 'Senior Flutter Engineer',
     contacInfo: ContactInfo(
       email: Uri.parse('mailto:$myEmail'),
@@ -22,7 +22,7 @@ void main() {
       resume: Uri.https(portfolioUrl, 'downloads/CV-Daniel%20Coyula.pdf'),
     ),
     flutterInfo: FlutterInfo(
-      experienceYears: 4,
+      experienceYears: 5,
       apps: [
         IOS(
           hasPublishedApps: true,
