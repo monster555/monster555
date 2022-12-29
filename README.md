@@ -19,7 +19,7 @@ void main() {
       email: Uri.parse('mailto:$myEmail'),
       linkedIn: Uri.https('www.linkedin.com', 'in/daniel-coyula/'),
       website: Uri.https(portfolioUrl),
-      resume: Uri.https(portfolioUrl, 'downloads/CV-Daniel%20Coyula.pdf'),
+      resume: Uri.https(portfolioUrl, 'downloads/CV-Daniel_Coyula.pdf'),
     ),
     flutterInfo: FlutterInfo(
       experienceYears: 5,
