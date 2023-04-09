@@ -10,19 +10,24 @@ MacBook-Pro:~ monster555$ cat ./main.dart
 
 ```dart
 void main() {
-  final portfolioUrl = 'dctech.dev';
+  final portfolioUrl = 'portfolio.dctech.dev';
   final myEmail = 'danicoy@gmail.com';
+  final websiteUrl = 'dctech.dev';
+  final githubUrl = 'github.com';
   
   final me = PersonalInfo(
     title: 'Senior Flutter Engineer',
     contacInfo: ContactInfo(
       email: Uri.parse('mailto:$myEmail'),
       linkedIn: Uri.https('www.linkedin.com', 'in/daniel-coyula/'),
-      website: Uri.https(portfolioUrl),
-      resume: Uri.https(portfolioUrl, 'downloads/CV-Daniel_Coyula.pdf'),
+      github: Uri.https(githubUrl, 'monster555'),
+      portfolio: Uri.https(portfolioUrl),
+      website: Uri.https(websiteUrl),
+      resume: Uri.https(websiteUrl, 'downloads/viewDanielCoyulaCV().pdf'),
     ),
     flutterInfo: FlutterInfo(
       experienceYears: 5,
+      projectsCount: 'Many!', // And counting... :)
       apps: [
         IOS(
           hasPublishedApps: true,
@@ -38,6 +43,8 @@ void main() {
       useFirebase: true,
       useParseServer: true,
       useFlutterWeb: true,
+      doLocalization: true,
+      doResponsiveDesign: true,
     ),
     otherSkills: [
       'UI / UX',
@@ -53,34 +60,45 @@ void main() {
     ],
     projects: [
       Project(
+        'My Flutter Web Portfolio',
+        role: 'Senior Flutter Engineer',
+        platforms: Platforms(webVersion: true),
+        url: Uri.https(portfolioUrl),
+      ),
+      Project(
+        'ProAnimals',
+        role: 'Senior Flutter Engineer',
+        platforms: Platforms(androidVersion: true, iosVersion: true),
+      ),
+      Project(
         'Cashews Finance',
         role: 'Senior Flutter Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.https(portfolioUrl, 'cashews-finance'),
+        url: Uri.https(websiteUrl, 'cashews-finance'),
       ),
       Project(
         'KOBA Insurance',
         role: 'Full Stack Senior Developer',
         platforms: Platforms(webVersion: true),
-        url: Uri.https(portfolioUrl, 'koba'),
+        url: Uri.https(websiteUrl, 'koba'),
       ),
       Project(
         'Self-Service kiosk for Citroën',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true),
-        url: Uri.https(portfolioUrl, 'citroen'),
+        url: Uri.https(websiteUrl, 'citroen'),
       ),
       Project(
         'PedidoFacil',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.https(portfolioUrl, 'pedidofacil'),
+        url: Uri.https(websiteUrl, 'pedidofacil'),
       ),
       Project(
         'EnvioFacil',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
-        url: Uri.https(portfolioUrl, 'enviofacil'),
+        url: Uri.https(websiteUrl, 'enviofacil'),
       ),
     ],
   )..setStatus(
