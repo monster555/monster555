@@ -10,18 +10,15 @@ MacBook-Pro:~ monster555$ cat ./main.dart
 
 ```dart
 void main() {
-  final portfolioUrl = 'portfolio.dctech.dev';
-  final myEmail = 'danicoy@gmail.com';
   final websiteUrl = 'dctech.dev';
-  final githubUrl = 'github.com';
   
   final me = PersonalInfo(
     title: 'Senior Flutter Engineer',
     contacInfo: ContactInfo(
-      email: Uri.parse('mailto:$myEmail'),
+      email: Uri.parse('mailto:danicoy@gmail.com'),
       linkedIn: Uri.https('www.linkedin.com', 'in/daniel-coyula/'),
-      github: Uri.https(githubUrl, 'monster555'),
-      portfolio: Uri.https(portfolioUrl),
+      github: Uri.https('github.com', 'monster555'),
+      portfolio: Uri.https('portfolio.dctech.dev'),
       website: Uri.https(websiteUrl),
       resume: Uri.https(websiteUrl, 'downloads/viewDanielCoyulaCV().pdf'),
     ),
