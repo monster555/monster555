@@ -60,7 +60,7 @@ void main() {
         'My Flutter Web Portfolio',
         role: 'Senior Flutter Engineer',
         platforms: Platforms(webVersion: true),
-        url: Uri.https(portfolioUrl),
+        url: Uri.https('portfolio.dctech.dev'),
       ),
       Project(
         'ProAnimals',
