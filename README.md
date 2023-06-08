@@ -28,11 +28,11 @@ void main() {
       apps: [
         IOS(
           hasPublishedApps: true,
-          appsCount: 3,
+          appsCount: 4,
         ),
         Android(
           hasPublishedApps: true,
-          appsCount: 4,
+          appsCount: 5,
         ),
       ],
       useBLoC: true,
