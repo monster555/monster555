@@ -57,6 +57,11 @@ void main() {
     ],
     projects: [
       Project(
+        'Baseball Cuba',
+        role: 'Senior Flutter Engineer',
+        platforms: Platforms(androidVersion: true, iosVersion: true),
+      ),
+      Project(
         'My Flutter Web Portfolio',
         role: 'Senior Flutter Engineer',
         platforms: Platforms(webVersion: true),
