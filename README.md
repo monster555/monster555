@@ -25,7 +25,7 @@ void main() {
     flutterInfo: FlutterInfo(
       experienceYears: 5,
       projectsCount: 'Many!', // And counting... :)
-      apps: [
+      apps: <Stores>[
         IOS(
           hasPublishedApps: true,
           appsCount: 4,
@@ -43,7 +43,7 @@ void main() {
       doLocalization: true,
       doResponsiveDesign: true,
     ),
-    otherSkills: [
+    otherSkills: <SkillString>[
       'UI / UX',
       'MongoDB',
       'JavaScript',
@@ -55,7 +55,7 @@ void main() {
       'React',
       'NextJS'
     ],
-    projects: [
+    projects: <Project>[
       Project(
         'Baseball Cuba',
         role: 'Senior Flutter Engineer',
