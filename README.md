@@ -3,7 +3,7 @@ Initializing Dart VM...
 
 Dart VM is ready to use.
 To contact me, please send me a message to `<a href="mailto:danicoy@gmail.com">danicoy@gmail.com</a>`.
-For more details, please visit <a href="https://portfolio.dctech.dev">https://portfolio.dctech.dev</a>.
+For more details, please visit <a href="https://portfolio.dctech.dev">https://portfolio.dctech.dev</a> or <a href="https://facefolio.dctech.dev">https://facefolio.dctech.dev</a>.
 MacBook-Pro:~ monster555$ cat ./main.dart
 </pre>
 
@@ -19,6 +19,7 @@ void main() {
       linkedIn: Uri.https('www.linkedin.com', 'in/daniel-coyula/'),
       github: Uri.https('github.com', 'monster555'),
       portfolio: Uri.https('portfolio.dctech.dev'),
+      facefolio: Uri.https('facefolio.dctech.dev'),
       website: Uri.https(websiteUrl),
       resume: Uri.https(websiteUrl, 'downloads/viewDanielCoyulaCV().pdf'),
     ),
@@ -32,7 +33,7 @@ void main() {
         ),
         Android(
           hasPublishedApps: true,
-          appsCount: 5,
+          appsCount: 6,
         ),
       ],
       useBLoC: true,
