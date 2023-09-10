@@ -58,6 +58,12 @@ void main() {
     ],
     projects: <Project>[
       Project(
+        'My FaceFolio',
+        role: 'Senior Flutter Engineer',
+        platforms: Platforms(webVersion: true),
+        url: Uri.https('facefolio.dctech.dev'),
+      ),
+      Project(
         'Baseball Cuba',
         role: 'Senior Flutter Engineer',
         platforms: Platforms(androidVersion: true, iosVersion: true),
