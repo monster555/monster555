@@ -24,7 +24,7 @@ void main() {
       resume: Uri.https(websiteUrl, 'downloads/viewDanielCoyulaCV().pdf'),
     ),
     flutterInfo: FlutterInfo(
-      experienceYears: 5,
+      experienceYears: '5+',
       projectsCount: 'Many!', // And counting... :)
       apps: <Stores>[
         IOS(
