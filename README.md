@@ -38,11 +38,13 @@ void main() {
       ],
       useBLoC: true,
       useCleanArchitecture: true,
+      useMongoDB: true,
       useFirebase: true,
       useParseServer: true,
       useFlutterWeb: true,
       doLocalization: true,
       doResponsiveDesign: true,
+      doUIUXDesign: true,
     ),
     otherSkills: <SkillString>[
       'UI / UX',
