@@ -46,17 +46,14 @@ void main() {
       doResponsiveDesign: true,
       doUIUXDesign: true,
     ),
-    otherSkills: <SkillString>[
+    otherSkills: <SkillString>[ // The most relevant
       'UI / UX',
       'MongoDB',
       'JavaScript',
       'NodeJS',
       'HTML / CSS',
       'TypeScript',
-      'Ionic Framework',
-      'Express',
-      'React',
-      'NextJS'
+      'Express'
     ],
     projects: <Project>[
       Project(
