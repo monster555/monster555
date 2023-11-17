@@ -10,7 +10,7 @@ MacBook-Pro:~ monster555$ cat ./main.dart
 
 ```dart
 void main() {
-  final websiteUrl = 'dctech.dev';
+  const websiteUrl = 'dctech.dev';
   
   final me = PersonalInfo(
     title: 'Senior Flutter Engineer',
