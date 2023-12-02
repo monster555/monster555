@@ -57,6 +57,12 @@ void main() {
     ],
     projects: <Project>[
       Project(
+        'DateChatAI',
+        role: 'Senior Flutter Engineer',
+        platforms: Platforms(ios: true, android: true),
+        url: Uri.https('datechatai.com'),
+      ),
+      Project(
         'My FaceFolio',
         role: 'Senior Flutter Engineer',
         platforms: Platforms(web: true),
