@@ -26,27 +26,29 @@ void main() {
     flutterInfo: FlutterInfo(
       experienceYears: '5+',
       projectsCount: 'Many!', // And counting... :)
-      apps: <Stores>[
-        IOS(
+      // Apps published on various stores
+      apps: <Store>[
+        // iOS apps in the App Store
+        AppStore(
           hasPublishedApps: true,
           appsCount: 4,
         ),
-        Android(
+        // Android apps in the Play Store
+        PlayStore(
           hasPublishedApps: true,
           appsCount: 6,
         ),
       ],
-      useBLoC: true,
-      useCleanArchitecture: true,
-      useMongoDB: true,
-      useFirebase: true,
-      useParseServer: true,
-      useFlutterWeb: true,
-      doLocalization: true,
-      doResponsiveDesign: true,
-      doUIUXDesign: true,
+      architecturesAndTools: <String>[
+        'Flutter Web',
+        'BLoC',
+        'Clean Architecture',
+        'Firebase',
+        'MongoDB',
+        'Parse Server',
+      ],
     ),
-    otherSkills: <SkillString>[ // The most relevant
+    otherSkills: <String>[ // The most relevant
       'UI / UX',
       'MongoDB',
       'JavaScript',
