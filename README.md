@@ -93,12 +93,6 @@ void main() {
         url: Uri.https(websiteUrl, 'cashews-finance'),
       ),
       Project(
-        'KOBA Insurance',
-        role: 'Full Stack Senior Developer',
-        platforms: Platforms(web: true),
-        url: Uri.https(websiteUrl, 'koba'),
-      ),
-      Project(
         'Self-Service kiosk for Citroën',
         role: 'Full Stack Software Engineer',
         platforms: Platforms(android: true),
