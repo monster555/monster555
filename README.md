@@ -14,100 +14,103 @@ void main() {
   
   final me = PersonalInfo(
     title: 'Senior Flutter Engineer',
-    contacInfo: ContactInfo(
+    contactInfo: ContactInfo(
       email: Uri.parse('mailto:danicoy@gmail.com'),
       linkedIn: Uri.https('www.linkedin.com', 'in/daniel-coyula/'),
       github: Uri.https('github.com', 'monster555'),
       portfolio: Uri.https('portfolio.dctech.dev'),
+      winxportfolio: Uri.https('winxportfolio.dctech.dev'),
       facefolio: Uri.https('facefolio.dctech.dev'),
       website: Uri.https(websiteUrl),
       resume: Uri.https(websiteUrl, 'downloads/viewDanielCoyulaCV().pdf'),
     ),
     flutterInfo: FlutterInfo(
-      experienceYears: '5+',
+      experienceYears: '6+',
       projectsCount: 'Many!', // And counting... :)
       // Apps published on various stores
       apps: <Store>[
         // iOS apps in the App Store
         AppStore(
-          hasPublishedApps: true,
-          appsCount: 4,
+          appsCount: 'many',
         ),
         // Android apps in the Play Store
         PlayStore(
-          hasPublishedApps: true,
-          appsCount: 6,
+          appsCount: 'many',
         ),
       ],
       architecturesAndTools: <String>[
-        'Flutter Web',
         'BLoC',
         'Clean Architecture',
         'Firebase',
         'MongoDB',
         'Parse Server',
+        'Flutter Web',
       ],
     ),
     otherSkills: <String>[ // The most relevant
       'UI / UX',
-      'MongoDB',
       'JavaScript',
       'NodeJS',
       'HTML / CSS',
-      'TypeScript',
       'Express'
     ],
     projects: <Project>[
       Project(
+        'My Windows XP Portfolio',
+        role: 'Senior Flutter Engineer',
+        platforms: ['Web'],
+        url: Uri.https('winxportfolio.dctech.dev'),
+      ),
+      Project(
         'DateChatAI',
         role: 'Senior Flutter Engineer',
-        platforms: Platforms(ios: true, android: true),
+        platforms: ['iOS', 'Android'],
         url: Uri.https('datechatai.com'),
       ),
       Project(
         'My FaceFolio',
         role: 'Senior Flutter Engineer',
-        platforms: Platforms(web: true),
+        platforms: ['Web'],
         url: Uri.https('facefolio.dctech.dev'),
       ),
       Project(
         'Baseball Cuba',
         role: 'Senior Flutter Engineer',
-        platforms: Platforms(android: true, iOS: true),
+        platforms: ['iOS', 'Android'],
       ),
       Project(
         'My Flutter Web Portfolio',
         role: 'Senior Flutter Engineer',
-        platforms: Platforms(web: true),
+        platforms: ['Web'],
         url: Uri.https('portfolio.dctech.dev'),
       ),
       Project(
         'ProAnimals',
         role: 'Senior Flutter Engineer',
-        platforms: Platforms(android: true, iOS: true),
+        platforms: ['iOS', 'Android'],
       ),
       Project(
         'Cashews Finance',
         role: 'Senior Flutter Engineer',
-        platforms: Platforms(android: true, iOS: true),
+        platforms: ['iOS', 'Android'],
         url: Uri.https(websiteUrl, 'cashews-finance'),
       ),
       Project(
         'Self-Service kiosk for Citroën',
         role: 'Full Stack Software Engineer',
-        platforms: Platforms(android: true),
+        platforms: ['Android'],
         url: Uri.https(websiteUrl, 'citroen'),
       ),
       Project(
         'PedidoFacil',
         role: 'Full Stack Software Engineer',
-        platforms: Platforms(android: true, iOS: true),
+        platforms: ['iOS', 'Android'],
         url: Uri.https(websiteUrl, 'pedidofacil'),
       ),
       Project(
         'EnvioFacil',
         role: 'Full Stack Software Engineer',
-        platforms: Platforms(android: true, iOS: true),
+        platforms: ['iOS', 'Android'],
         url: Uri.https(websiteUrl, 'enviofacil'),
       ),
     ],
