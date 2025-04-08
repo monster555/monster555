@@ -3,7 +3,7 @@ Initializing Dart VM...
 
 Dart VM is ready to use.
 To contact me, please send me a message to `<a href="mailto:danicoy@gmail.com">danicoy@gmail.com</a>`.
-For more details, please visit <a href="https://portfolio.dctech.dev">https://portfolio.dctech.dev</a> or <a href="https://facefolio.dctech.dev">https://facefolio.dctech.dev</a>.
+For more details, please visit <a href="https://portfolio.dctech.dev">https://portfolio.dctech.dev</a>.
 MacBook-Pro:~ monster555$ cat ./main.dart
 </pre>
 
@@ -30,13 +30,9 @@ void main() {
       // Apps published on various stores
       apps: <Store>[
         // iOS apps in the App Store
-        AppStore(
-          appsCount: 'many',
-        ),
+        AppStore(appsCount: 'many'),
         // Android apps in the Play Store
-        PlayStore(
-          appsCount: 'many',
-        ),
+        PlayStore(appsCount: 'many'),
       ],
       architecturesAndTools: <String>[
         'BLoC',
