@@ -52,6 +52,13 @@ void main() {
     ],
     projects: <Project>[
       Project(
+        'FlutterConf Latam - Official App',
+        role: 'Lead Flutter Engineer',
+        platforms: ['iOS', 'Android'],
+        isOpenSource: true,
+        url: Uri.https('flutterconflatam.dev'),
+      ),
+      Project(
         'My Windows XP Portfolio',
         role: 'Senior Flutter Engineer',
         platforms: ['Web'],
