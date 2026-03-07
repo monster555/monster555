@@ -3,7 +3,7 @@ Initializing Dart VM...
 
 Dart VM is ready to use.
 To contact me, please send me a message to `<a href="mailto:danicoy@gmail.com">danicoy@gmail.com</a>`.
-For more details, please visit <a href="https://portfolio.dctech.dev">https://portfolio.dctech.dev</a>.
+For more details, please visit <a href="https://portfoliolite.dctech.dev">https://portfoliolite.dctech.dev</a>.
 MacBook-Pro:~ monster555$ cat ./main.dart
 </pre>
 
@@ -18,6 +18,7 @@ void main() {
       email: Uri.parse('mailto:danicoy@gmail.com'),
       linkedIn: Uri.https('www.linkedin.com', 'in/daniel-coyula/'),
       github: Uri.https('github.com', 'monster555'),
+      portfoliolite: Uri.https('portfoliolite.dctech.dev'),
       portfolio: Uri.https('portfolio.dctech.dev'),
       winxportfolio: Uri.https('winxportfolio.dctech.dev'),
       facefolio: Uri.https('facefolio.dctech.dev'),
@@ -25,7 +26,7 @@ void main() {
       resume: Uri.https(websiteUrl, 'downloads/viewDanielCoyulaCV().pdf'),
     ),
     flutterInfo: FlutterInfo(
-      experienceYears: '6+',
+      experienceYears: '7+',
       projectsCount: 'Many!', // And counting... :)
       // Apps published on various stores
       apps: <Store>[
@@ -39,18 +40,21 @@ void main() {
         'Clean Architecture',
         'Firebase',
         'MongoDB',
-        'Parse Server',
-        'Flutter Web',
       ],
     ),
     otherSkills: <String>[ // The most relevant
       'UI / UX',
-      'JavaScript',
       'NodeJS',
-      'HTML / CSS',
-      'Express'
+      'HTML / CSS'
     ],
     projects: <Project>[
+      Project(
+        'My Portfolio Lite',
+        role: 'Senior Flutter Engineer',
+        platforms: ['Web'],
+        url: Uri.https('portfoliolite.dctech.dev'),
+        techStack: ['Jaspr', 'Dart']
+      ),
       Project(
         'FlutterConf Latam - Official App',
         role: 'Lead Flutter Engineer',
